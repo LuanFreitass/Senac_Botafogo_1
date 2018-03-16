@@ -6,7 +6,7 @@
 		<meta name="author" content="Matheus Jordan">
 		<meta name="description" content="Paginas Vagas">
 		<meta name="keywords" content="HTML, CSS, XML, JavaScript">
-		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<style>
 			*{
 				margin:0;
@@ -37,7 +37,6 @@
 			[class*="col-"] {
 							float: left;
 							padding: 15px;
-							border: 1px solid black;
 							}
 			
 			.row::after {
@@ -46,40 +45,66 @@
 			display: table;
 			}
 			
+			main{
+				background-color:#CCC;
+				margin-top:-50px;
+				height:1000px;
+			}
+			
 			main ul{
 				list-style:none;
 				text-align:left;
 			}
 			
 			main ul li{
-				font-size:22px;
-				padding:40px;
+				font-size:18px;
+				padding:20px;
+				text-align:center;
 			}
 			
 			main .painel h2{
-				text-align:left;
-				margin-bottom:50px;
+				font-size:24px;
+				text-align:center;
+				margin-bottom:100px;
+				color:blue;
 			}
 			
-			.painel{
-					margin-top:100px;
-					margin-left:8.33%;
-					margin-right:8.33%;
+			 .container_jordan{
+					margin-top:150px;
+					margin-left:10%;
+					margin-right:10%;
+					background-color:white;
 				}
+			
+			
 			
 		</style> 
 	</head>
 
 	<body>
 		<header>
-		
+			
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#" >Vagas Agora</a>
+					</div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Vagas</a></li>
+							<li><a href="#">Empresas</a></li>
+							<li><a href="#">Curriculos</a></li>
+						</ul>
+					</div>
+			</nav>
+
 		</header>
 		
 		
 		<main>
 			<div class ="row">
-				<div class="col-10 painel">
-				<div class ="col-4">
+				<div class="container_jordan painel">
+					<div class ="col-4">
 					<h2>Cargo</h2>
 						<ul>
 							<li>Analista de Sistemas</li>
@@ -89,8 +114,8 @@
 							<li>Técnico em Suporte</li>
 							<li>Programador</li>
 						</ul>
-				</div>
-				<div class ="col-4">
+					</div>
+					<div class ="col-4">
 					<h2>Local</h2>
 						<ul>
 							<li>Centro</li>
@@ -100,8 +125,8 @@
 							<li>Barra da Tijuca</li>
 							<li>Botafogo</li>
 						</ul>
-				</div>
-				<div class ="col-4">
+					</div>
+					<div class ="col-4">
 					<h2>Salário</h2>
 						<ul>
 							<li>A combinar</li>
@@ -111,7 +136,7 @@
 							<li>A combinar</li>
 							<li>A combinar</li>
 						</ul>
-				</div>
+					</div>
 				</div>
 			</div>
 		</main>

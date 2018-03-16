@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		
+	
+<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<title>Vagas Agora </title>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" >Banco de Oportunidades</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Oportunidades</a></li>
+      <li><a href="#">Vagas</a></li>
+      <li><a href="#">Empresas</a></li>
+      <li><a href="#">Curriculos</a></li>
+    </ul>
+  </div>
+</nav>
+
+<form id="oportunidade" name="oportunidade" method="post" action="" onsubmit="return validaCampo(); return false;">
+<h1><center>Banco de Oportunidades</center></h1>
+<Legend>Envie a sua Oportunidade</legend>
+<table>
+	<tr>
+		<td>Cargo:</td>
+		<td><select name="selectcargos">
+			<option value=""></option>
+			<option value="">Administrador</option>
+			<option value="">Confeiteiro</option>
+			<option value="">Contador</option>
+			<option value="">Engenheiro Elétrico</option>
+			<option value="">Engenheiro de Software</option>
+			<option value="">Engenheiro de Hardware</option>
+			<option value="">Sistema de Informação</option
+			</select>
+		</td>
+
+	</tr>
+	
+	
+	
+	<tr>
+		<td>Descrição:</td>
+		<td colspan="2"><textarea name="areado" rows="4" cols="50" placeholder="Escreva um pouco sobre você e suas experiências."></textarea></td>
+	</tr>
+	
+	<tr>
+		<td>Local:</td>
+		<td><input name="bairro" type="text" id="bairro" size="20" placeholder="Escreva seu Bairro" /></td>
+		<td>Cidade</td>
+		<td><select name="estado">
+			<option value=""></option>
+			<option value="">Acre</option>
+			<option value="">Alagoas</option>
+			<option value="">Amapá</option>
+			<option value="">Amazonas</option>
+			<option value="">Bahia</option>
+			<option value="">Ceará</option>
+			<option value="">Distrito</option>
+			<option value="">Espírito Santo</option>
+			<option value="">Goiás</option>
+			<option value="">Maranhão</option>
+			<option value="">Mato Grosso</option>
+			<option value="">Mato Grosso do Sul</option>
+			<option value="">Minas Gerais</option>
+			<option value="">Pará</option>
+			<option value="">Paraíba</option>
+			<option value="">Paraná</option>
+			<option value="">Pernambuco</option>
+			<option value="">Piauí</option>
+			<option value="">Rio de Janeiro</option>	
+			<option value="">Rio Grande do Norte</option>
+			<option value="">Rio Grande do Sul</option>
+			<option value="">Rondônia</option>
+			<option value="">Roraima</option>
+			<option value="">Santa Catarina</option>
+			<option value="">São Paulo</option>
+			<option value="">Sergipe</option>
+			<option value="">Tocantins</option>
+			</select>
+		</td>
+	</tr>
+	
+	
+	<tr>
+		<td>Salário:</td>
+		<td><input name="money" type="text" id="money" size="10" placeholder="Estimátiva" /></td>
+	</tr>
+	
+	</table>
+	
+	
+	<br>
+	
+	<tr>	
+		<td colspan"2"><p>
+		<input name="enviar" type="submit" id="sent" value="Enviar" />
+		<input name="Limpar" type="reset" id="Limpar" value="Limpar" />
+		<br>
+		</td>
+	</tr>
+	
+	
+
+
+
+
+
+
+
+
+</body>
+</html>

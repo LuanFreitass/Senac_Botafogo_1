@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+	<head>
+		<title>Vagas </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Matheus Jordan">
+		<meta name="description" content="Paginas Vagas">
+		<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<style>
+			*{
+				margin:0;
+				padding:0; 
+				box-sizing:border-box;
+			}
+			
+			
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+			[class*="col-"] {
+							float: left;
+							padding: 15px;
+							}
+			
+			.row::after {
+			content: "";
+			clear: both;
+			display: table;
+			}
+			
+			main{
+				background-color:#CCC;
+				margin-top:-50px;
+				height:1000px;
+			}
+			
+			main ul{
+				list-style:none;
+				text-align:left;
+			}
+			
+			main ul li{
+				font-size:18px;
+				padding:20px;
+				text-align:center;
+			}
+			
+			main .painel h2{
+				font-size:24px;
+				text-align:center;
+				margin-bottom:100px;
+				color:blue;
+			}
+			
+			 .container_jordan{
+					height:600px;
+					margin-top:150px;
+					margin-left:10%;
+					margin-right:10%;
+					background-color:white;
+				}
+			
+			
+			
+		</style> 
+	</head>
+
+	<body>
+		<header>
+			
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#" >Vagas Agora</a>
+					</div>
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li class="active"><a href="pagina_vagas.html">Vagas</a></li>
+							<li><a href="empresas.html">Empresas</a></li>
+							<li><a href="curriculos.html">Currículos</a></li>
+						</ul>
+					</div>
+			</nav>
+
+		</header>
+		
+		
+		<main class="col-12">
+			<div class ="row">
+				<div class="container_jordan painel">
+					<div class ="col-4">
+					<h2>Cargo</h2>
+						<ul>
+							<li>Analista de Sistemas</li>
+							<li>Analista Programador</li>
+							<li>Programador	</li>
+							<li>Estágio em desenvolvimento</li>
+							<li>Técnico em Suporte</li>
+							<li>Programador</li>
+						</ul>
+					</div>
+					<div class ="col-4">
+					<h2>Local</h2>
+						<ul>
+							<li>Centro</li>
+							<li>Centro</li>
+							<li>Barra da Tijuca	</li>
+							<li>Centro</li>
+							<li>Barra da Tijuca</li>
+							<li>Botafogo</li>
+						</ul>
+					</div>
+					<div class ="col-4">
+					<h2>Salário</h2>
+						<ul>
+							<li>A combinar</li>
+							<li>A combinar</li>
+							<li>A combinar	</li>
+							<li>A combinar</li>
+							<li>A combinar</li>
+							<li>A combinar</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+		
+		</footer>
+	</body>
+</html>
